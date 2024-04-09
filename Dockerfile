@@ -1,7 +1,8 @@
 ###############################################################################################
 # HCSS jupyter - BASE
+# Carla requires Python Version 3.7 - https://jupyter-docker-stacks.readthedocs.io/en/latest/
 ###############################################################################################
-FROM jupyter/scipy-notebook:1aac87eb7fa5 as hcss-jupyternotebook-carla-base
+FROM jupyter/scipy-notebook:b86753318aa1 as hcss-jupyternotebook-carla-base
 
 WORKDIR /var/www
 
